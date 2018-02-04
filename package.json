@@ -12,7 +12,11 @@
     "tailwindcss"
   ],
   "author": "Cody Gibbs",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codygibbs/yeoman-generator-mix-tailwindcss"
+  },
   "dependencies": {
     "yeoman-generator": "^2.0.2"
   }
