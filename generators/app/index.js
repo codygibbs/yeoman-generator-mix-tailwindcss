@@ -15,13 +15,10 @@ module.exports = class extends Generator {
     }
 
     addFiles() {
-        //Copy the configuration files
         this._writeConfigFiles()
     
-        //Copy application files
         this._writeAppFiles()
     
-        //Install Dependencies
         this.npmInstall([
             'laravel-mix',
             'tailwindcss',
@@ -32,9 +29,6 @@ module.exports = class extends Generator {
         ], { 'save': true })
     }
 
-    // install() {
-    // }
-
     end() {
         this.spawnCommandSync(
             this.destinationPath('node_modules/.bin/tailwind'), ['init', this.destinationPath('resources/css/tailwind-config.js')])
@@ -43,7 +37,6 @@ module.exports = class extends Generator {
     }
 
 
-    // Helpers
     /**
      * @param {string} relPath 
      * 
