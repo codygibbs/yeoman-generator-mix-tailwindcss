@@ -1,0 +1,19 @@
+{
+  "name": "generator-static-mix-tailwind",
+  "version": "1.0.0",
+  "description": "Generates a simple project containing a static HTML page, Laravel Mix and Tailwind CSS.",
+  "files": [
+    "generators"
+  ],
+  "scripts": {},
+  "keywords": [
+    "yeoman-generator",
+    "laravel-mix",
+    "tailwindcss"
+  ],
+  "author": "Cody Gibbs",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^2.0.2"
+  }
+}
