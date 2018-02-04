@@ -10,5 +10,5 @@ $ npm install -g generator-static-mix-tailwind
 ## Generate Project
 ```
 $ mkdir site && cd $_
-$ yo static-mix-tailwind
+$ yo static-mix-tailwind project-name
 ```
