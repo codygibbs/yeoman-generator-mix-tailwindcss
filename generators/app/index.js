@@ -62,6 +62,17 @@ module.exports = class extends Generator {
             this._destinationAppPath('public/index.html'),
             { title: this.appname }
           )
+
+        this.fs.copyTpl(
+            this.templatePath('.gitignore'),
+            this._destinationAppPath('.gitignore')
+          )
+
+        this.fs.copyTpl(
+            this.templatePath('_readme.md'),
+            this._destinationAppPath('readme.md'),
+            { title: this.appname }
+          )
     }
 
     _writeConfigFiles() {

@@ -1,4 +1,4 @@
-# Laravel Mix + Tailwind CSS
+# <%= title %>
 
 Static site project built with [Larvel Mix](https://github.com/JeffreyWay/laravel-mix/tree/master/docs) and [Tailwind CSS](https://tailwindcss.com).
 
